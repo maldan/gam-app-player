@@ -1,0 +1,1 @@
+go run . --appId=dev-player-app --host=192.168.1.92 --port=16000 --clientPort=8080 --initDev=true --file=C:/Users/black/Desktop/Trash/P1/Untitled323.mp4

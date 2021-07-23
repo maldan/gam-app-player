@@ -10,7 +10,9 @@ export default defineComponent({
   async mounted() {},
   methods: {},
   data: () => {
-    return {};
+    return {
+      apiUrl: process.env.VUE_APP_API_URL || `${window.location.origin}/api`,
+    };
   },
 });
 </script>
